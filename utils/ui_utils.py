@@ -20,6 +20,12 @@ def test_networking():
         response = requests.get("https://feeds.bbci.co.uk/news/rss.xml")
         st.write(response.text)
 
+def write_file_test():
+    if st.button("Make file"):
+        f = open("test.txt", "a")
+        f.write("Hello world!")
+        f.close()
+
 
 if __name__ == '__main__':
     pass 

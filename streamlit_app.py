@@ -6,3 +6,5 @@ st.write('Hello world!')
 ui_utils.render_select_box()
 
 ui_utils.test_networking()
+
+ui_utils.write_file_test()
